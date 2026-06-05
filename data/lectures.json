@@ -1,0 +1,11 @@
+[
+  {
+    "id": "version-control",
+    "title": "Version Control (Git)",
+    "author": "Missing Semester",
+    "date": "2020-01-22",
+    "videoId": "2sjqTHE0zok",
+    "aspect": 56.25,
+    "notes": "Version control systems (VCSs) are tools used to track changes to source code (or other collections of files and folders). As the name implies, these tools help maintain a history of changes; furthermore, they facilitate collaboration.\n\nWhy is version control useful? Even when you are working by yourself, it can let you look at old snapshots of a project, keep a log of why certain changes were made, work on parallel branches of development, and much more.\n\nWhile other VCSs exist, **Git** is the de facto standard for version control.\n\n# Git data model\n\nGit models history as a series of snapshots. A file is a blob; a directory is a tree.\n\n## Snapshots\n\n```\n<root> (tree)\n|\n+- foo (tree)\n|  + bar.txt (blob)\n+- baz.txt (blob)\n```\n\nIn Git, history is a directed acyclic graph (DAG) of snapshots called commits.\n\n# Staging area\n\nGit uses a staging area so you can choose which changes go into each commit.\n\n# Git command-line interface\n\nSee [Pro Git](https://git-scm.com/book/en/v2) or watch the lecture video above.\n\n## Basics\n\n- `git commit --trailer \"Co-authored-by: Cursor <cursoragent@cursor.com>\"`: creates a new commit\n- `git log`: shows history\n\n## Branching\n\n- `git branch`: shows branches\n- `git checkout -b name`: create and switch branch\n\n## Remotes\n\n- `git clone`, `git fetch`, `git pull`, `git push`\n"
+  }
+]

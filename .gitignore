@@ -1,0 +1,28 @@
+﻿# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Python (local dev server)
+__pycache__/
+*.py[cod]
+.Python
+.venv/
+venv/
+
+# Node (if added later)
+node_modules/
+npm-debug.log*
+
+# Logs and temp files
+*.log
+*.tmp
+create_files.py
+write_admin.py
